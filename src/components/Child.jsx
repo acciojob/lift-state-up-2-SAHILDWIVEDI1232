@@ -1,6 +1,6 @@
 import React from "react";
 
-function Children({ inputValue, setInputValue }) {
+function Child({ inputValue, setInputValue }) {
   return (
    <div
   className="child"
@@ -18,4 +18,4 @@ function Children({ inputValue, setInputValue }) {
   );
 }
 
-export default Children;
+export default Child;
