@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Children from "./Children";
+import Child from "./Child.jsx";
 
 const Parent = () => {
   const [inputValue, setInputValue] = useState("");
@@ -16,7 +16,7 @@ const Parent = () => {
 
       <p>{inputValue}</p>
 
-      <Children
+      <Child
         inputValue={inputValue}
         setInputValue={setInputValue}
       />
